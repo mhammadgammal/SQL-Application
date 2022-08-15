@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/age"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameTV" />
+
+        <TextView
+            android:id="@+id/isActiveTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text=" "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ageTV" />
+
+        <TextView
+            android:id="@+id/nametxtTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:text=" "
+            app:layout_constraintStart_toEndOf="@+id/nameTV"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/agetxtTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:text=" "
+            app:layout_constraintStart_toEndOf="@+id/ageTV"
+            app:layout_constraintTop_toBottomOf="@+id/nametxtTV" />
+
+        <TextView
+            android:id="@+id/activetxtTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text=" "
+            app:layout_constraintStart_toEndOf="@+id/isActiveTV"
+            app:layout_constraintTop_toBottomOf="@+id/agetxtTV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

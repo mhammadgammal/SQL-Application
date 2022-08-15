@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLite Demo</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="actvCustmr">Active state</string>
+
+</resources>
